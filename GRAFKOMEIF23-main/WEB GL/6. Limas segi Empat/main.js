@@ -82,8 +82,8 @@ function main(){
 
     function render(time){
         if(!freeze){
-            //translasi(modmatrix,0.01,0.0,0.0);
-            //rotasiX(modmatrix, 0.01);
+            translasi(modmatrix,0.01,0.0,0.0);
+            rotasiX(modmatrix, 0.01);
         }
 
         //kedalaman (z)
